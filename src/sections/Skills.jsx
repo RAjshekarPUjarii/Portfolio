@@ -24,12 +24,12 @@ const Contact = () => {
               return (
                 <CarouselItem
                   key={id}
-                  className="basis-1/3 lg:basis-1/6 flex flex-col justify-center items-center"
+                  className=" basis-1/2 md:basis-1/3 lg:basis-1/6 flex flex-col justify-center items-center"
                 >
                   <img
                     src={path}
                     alt={name}
-                    className="h-9 sm:h-1/4 object-contain"
+                    className="h-96 sm:h-1/4 object-contain"
                   />
                   {/* <p className="text-xl"> {name}</p> */}
                 </CarouselItem>

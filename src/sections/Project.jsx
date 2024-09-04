@@ -9,11 +9,11 @@ const Project = () => {
         </h1>
       </div>
       <div className=" flex flex-row   justify-evenly  gap-10 max-lg:flex-col max-lg:gap-12 max-lg:justify-center items-center ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14">
           {projects.map(({ imgURL, name, code }) => (
             <div
               key={name}
-              className="flex flex-col gap-3 justify-center items-center rounded object-cover drop-shadow-xl"
+              className="flex flex-col gap-4 justify-center items-center rounded object-cover drop-shadow-xl"
             >
               <a href={code} target="_blank" rel="noopener noreferrer">
                 <img
