@@ -10,10 +10,13 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  var currentTime = new Date();
   return (
     <footer>
       <div className="flex justify-center items-center flex-col gap-3">
-        <h1 className="font-montserrat text-black">RAjshekar PUjari @2023 </h1>
+        <h1 className="font-montserrat text-black">
+          RAjshekar PUjari {currentTime.getFullYear()}{" "}
+        </h1>
         <div className="flex flex-row gap-4">
           <span>
             <a

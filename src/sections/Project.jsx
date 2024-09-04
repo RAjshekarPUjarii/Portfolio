@@ -9,35 +9,26 @@ const Project = () => {
         </h1>
       </div>
       <div className=" flex flex-row   justify-evenly  gap-10 max-lg:flex-col max-lg:gap-12 max-lg:justify-center items-center ">
-        {projects.map(({ imgURL, name, live, code }) => (
-          <div
-            key={name}
-            className="flex flex-col gap-3 justify-center items-center bg-violet-300 rounded-[2rem]  max-w-[30rem]   "
-          >
-            <img
-              className=" rounded-[2rem] max-lg:rounded-none max-lg:mt-10 max-lg:w-[13rem] max-lg:mr-10 max-lg:ml-10  object-cover "
-              src={imgURL}
-              alt="image"
-              width={500}
-              height={300}
-            />
-            <h1 className="text-black text-2xl  font-mon ">{name}</h1>
-            <div className="space-x-10 px-4 py-3 ">
-              <button className="transition duration-700 ease-in-out hover:bg-light-black   bg-violet-400  hover:border-2  px-4 py-2 rounded-2xl text-black hover:text-white">
-                {" "}
-                <a href={live} target="_blank">
-                  Live
-                </a>
-              </button>
-              <button className="transition duration-75 ease-in-out hover:bg-light-black     bg-violet-400  hover:border-2  px-4 py-2 rounded-2xl text-black hover:text-white">
-                {" "}
-                <a href={code} target="_blank">
-                  Github
-                </a>
-              </button>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {projects.map(({ imgURL, name, code }) => (
+            <div
+              key={name}
+              className="flex flex-col gap-3 justify-center items-center rounded object-cover"
+            >
+              <a href={code} target="_blank" rel="noopener noreferrer">
+                <img
+                  className="rounded transition-transform duration-300 ease-in-out transform hover:scale-110 max-lg:rounded-none max-lg:mt-10 max-lg:w-[13rem] max-lg:mr-10 max-lg:ml-10 object-cover w-[400px] h-[200px]"
+                  src={imgURL}
+                  alt={name}
+                  width={500}
+                  height={300}
+                  draggable="false"
+                />
+              </a>
+              <h1 className="text-black text-2xl font-mon">{name}</h1>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

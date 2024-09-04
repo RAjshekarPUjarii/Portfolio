@@ -8,7 +8,7 @@ export default function App() {
       <section className="border-solid border-2 text-black  w-full ">
         <ScrollHandler />
       </section>
-      <section className="sm:px-16 px-8 sm:py-10 py-12 mt-[4.3rem] border-solid border-1 border-red-600 bg-light-black text-white ">
+      <section className=" sm:px-16 px-8 sm:py-10 py-12 mt-[4.3rem] border-solid border-1 border-red-600 bg-light-black text-white ">
         <Hero />
       </section>
       <hr />
@@ -27,7 +27,7 @@ export default function App() {
       </section>
       <hr />
       <section
-        id="contact"
+        id="skills"
         className="sm:px-16 px-8 sm:py-10 py-12 bg-light-black border-solid border-1 border-red-600 text-white"
       >
         <Contact />

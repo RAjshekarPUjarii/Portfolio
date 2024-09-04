@@ -21,6 +21,14 @@ const About = () => {
         <div>
           <h1 className="text-2xl text-black  tracking-wider leading-10 max-lg:text-xl font-montserrat max-lg:leading-relaxed">
             {descriptions}
+            <span className="px-1 text-sm cursor-pointer hover:underline">
+              <a
+                href="https://www.linkedin.com/in/rajshekar-pujari/"
+                target="_blank"
+              >
+                Know more about me..
+              </a>
+            </span>
           </h1>
         </div>
       </div>

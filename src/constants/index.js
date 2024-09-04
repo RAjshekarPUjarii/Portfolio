@@ -3,15 +3,27 @@ import diceImage from "../assets/dice-game.png";
 import drumKitImage from "../assets/Drum-kit.png";
 import todoListImage from "../assets/todoList.png";
 import myPhoto from "../assets/myPhoto.jpg";
+import bloodBankImage from "../assets/images/blood-bank.jpg";
+import twitterImage from "../assets/twitter-clone.png";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#project", label: "Project" },
+  { href: "#skills", label: "Skills" },
   { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact Me" },
 ];
 
 export const projects = [
+  {
+    imgURL: bloodBankImage,
+    name: "Blood Bank Application",
+    code: "https://github.com/RAjshekarPUjarii/Blood-Bank-Application",
+  },
+  {
+    imgURL: twitterImage,
+    name: "Blood Bank Application",
+    code: "https://github.com/RAjshekarPUjarii/Twitter-Clone",
+  },
   {
     imgURL: diceImage,
     name: "Dice Game",
@@ -35,7 +47,11 @@ export const projects = [
 
 export const about = {
   heading: "ABOUT",
-  descriptions:
-    "I'm Rajshekar Pujari, i'am from Wadi Junction,Kalaburgi, Karnataka. Currently in the final year of my Bachelors degree in Computer Science and Engineering at Sharnbasva University in Kalaburagi , I am deeply passionate about web development. My genuine interest lies in creating user-friendly interfaces, and I'm excited about contributing my skills to Frontend web development.",
+  descriptions: `I graduated with a Bachelor of Engineering in Computer Science in 2024.
+I'm passionate about learning and exploring new technologies.
+My goal is to deepen my understanding of the field.
+I have a keen interest in web development.
+Creating user-friendly interfaces excites me.
+I'm eager to contribute my skills to full stack development.`,
   imgURL: myPhoto,
 };

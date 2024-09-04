@@ -47,10 +47,12 @@ const Nav = ({ scrolled }) => {
             <li
               onClick={handlePage}
               key={href}
-              className={`hover:border-solid tracking-[0.1rem]  text-black  hover:border-5 hover:border-coral-red  hover:bg-light-black  px-6 py-1 transition duration-300 hover:ease-linear hover:text-white rounded-lg 
+              className={`hover:border-solid tracking-[0.1rem]  text-black  hover:border-5 hover:border-coral-red  hover:bg-light-black  transition duration-300 hover:ease-linear hover:text-white rounded-lg 
              `}
             >
-              <a href={href}>{label}</a>
+              <a href={href} className="px-6 py-1">
+                {label}
+              </a>
             </li>
           ))}
           <hr />
