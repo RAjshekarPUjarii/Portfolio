@@ -1,6 +1,6 @@
 import image1 from "../assets/images/hero.svg";
 import image2 from "../assets/image2.png";
-
+import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section>
@@ -16,15 +16,14 @@ const Hero = () => {
 
           {/* hire me button */}
           <div className=" hover:border-solid hover:border-light-black ">
-            <button className=" hover:bg-light-black mt-4    bg-violet-400  hover:border-2  px-4 py-2 rounded-2xl text-black hover:text-white">
-              {" "}
+            <Button className="hover:bg-light-black mt-4    bg-violet-400  hover:border-2  px-4 py-2 rounded-2xl text-black hover:text-white">
               <a
                 href="https://www.linkedin.com/in/rajshekar-pujari/"
                 target="_blank"
               >
                 Hire Me
               </a>
-            </button>
+            </Button>
           </div>
         </div>
         {/* image */}

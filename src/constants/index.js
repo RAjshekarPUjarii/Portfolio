@@ -5,6 +5,7 @@ import todoListImage from "../assets/todoList.png";
 import myPhoto from "../assets/myPhoto.jpg";
 import bloodBankImage from "../assets/images/blood-bank.jpg";
 import twitterImage from "../assets/twitter-clone.png";
+import TinDogImage from "../assets/tindogclone.png";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -25,23 +26,26 @@ export const projects = [
     code: "https://github.com/RAjshekarPUjarii/Twitter-Clone",
   },
   {
+    imgURL: todoListImage,
+    name: "Todo-List",
+    code: "https://github.com/RAjshekarPUjarii/Todo-List",
+  },
+
+  {
     imgURL: diceImage,
     name: "Dice Game",
-    live: "https://rajshekarpujarii.github.io/Dice-game/",
     code: "https://github.com/RAjshekarPUjarii/Dice-game",
   },
 
   {
     imgURL: drumKitImage,
     name: "Drum Kit",
-    live: "https://rajshekarpujarii.github.io/drum-kit/",
     code: "https://github.com/RAjshekarPUjarii/drum-kit",
   },
   {
-    imgURL: todoListImage,
-    name: "Todo-List",
-    live: "https://rajshekarpujarii.github.io/Todo-List/",
-    code: "https://github.com/RAjshekarPUjarii/Todo-List",
+    imgURL: TinDogImage,
+    name: "TinDog-Clone",
+    code: "https://github.com/RAjshekarPUjarii/Tindog-project",
   },
 ];
 

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Java",
+    "path": "/skills/java.png",
+    "id": 1
+  },
+  {
+    "name": "Javascript",
+    "path": "/skills/javascript.png",
+    "id": 2
+  },
+  {
+    "name": "HTML",
+    "path": "/skills/html.png",
+    "id": 3
+  },
+  {
+    "name": "CSS",
+    "path": "/skills/css.png",
+    "id": 4
+  },
+  {
+    "name": "Tailwind CSS",
+    "path": "/skills/tailwindcss.png",
+    "id": 5
+  },
+  {
+    "name": "SQL",
+    "path": "/skills/sql.png",
+    "id": 6
+  },
+  {
+    "name": "Git",
+    "path": "/skills/git.png",
+    "id": 7
+  },
+  {
+    "name": "reactjs",
+    "path": "/skills/reactjs.png",
+    "id": 8
+  }
+]

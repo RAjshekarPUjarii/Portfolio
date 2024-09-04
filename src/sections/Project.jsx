@@ -13,15 +13,15 @@ const Project = () => {
           {projects.map(({ imgURL, name, code }) => (
             <div
               key={name}
-              className="flex flex-col gap-3 justify-center items-center rounded object-cover"
+              className="flex flex-col gap-3 justify-center items-center rounded object-cover drop-shadow-xl"
             >
               <a href={code} target="_blank" rel="noopener noreferrer">
                 <img
                   className="rounded transition-transform duration-300 ease-in-out transform hover:scale-110 max-lg:rounded-none max-lg:mt-10 max-lg:w-[13rem] max-lg:mr-10 max-lg:ml-10 object-cover w-[400px] h-[200px]"
                   src={imgURL}
                   alt={name}
-                  width={500}
-                  height={300}
+                  width={400}
+                  height={250}
                   draggable="false"
                 />
               </a>

@@ -11,28 +11,28 @@ export default function App() {
       <section className=" sm:px-16 px-8 sm:py-10 py-12 mt-[4.3rem] border-solid border-1 border-red-600 bg-light-black text-white ">
         <Hero />
       </section>
-      <hr />
+
       <section
         id="project"
         className="sm:px-16 px-8 sm:py-10 py-12 border-solid border-1 border-red-600 bg-light-black text-white "
       >
         <Project />
       </section>
-      <hr />
+
       <section
         id="about"
         className="sm:px-16 px-8 sm:py-10 py-12  border-solid border-1 border-red-600 bg-light-black text-white"
       >
         <About />
       </section>
-      <hr />
+
       <section
         id="skills"
         className="sm:px-16 px-8 sm:py-10 py-12 bg-light-black border-solid border-1 border-red-600 text-white"
       >
         <Contact />
       </section>
-      <hr />
+
       <section
         id="#footer"
         className="sm:px-16 px-8 sm:py-8 py-12 bg-violet-600 border-solid border-1 border-red-600  text-white"
